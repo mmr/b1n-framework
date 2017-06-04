@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.b1n.framework</groupId>
+        <artifactId>b1n-framework-versions</artifactId>
+        <version>2.0.0</version>
+    </parent>
+
+    <groupId>org.b1n.framework</groupId>
+    <artifactId>b1n-web</artifactId>
+    <name>b1n-web</name>
+    <version>2.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.b1n.framework</groupId>
+            <artifactId>b1n-persistence</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jsp-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.vraptor</groupId>
+            <artifactId>vraptor</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+	</dependencies>
+</project>
